@@ -1,38 +1,49 @@
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.master {
+  background-color: yellow;
+  width: 400px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  width: 80px;
+  margin-left: 50%;
 }
+.puce {
+  margin-right: 80%;
+  width: 40px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.title {
+  font-size: 1.5em;
+  margin-left: 150px;
+
+}
+.Numbers {
+  margin-right: 65%;
+    font-size: 1.5em;
+}
+.jour {
+  margin-left: 50%;
+}
+.Nom {
+  /* margin-right: 80%; */
+  font-size: 1.2em;
+}
+.company {
+  margin-left: 50%;
+}
+.card-Number {
+  width: 180px;
+}
+.Date_user {
+  width: 180px;
+}
+.Name_user {
+  width: 180px;
+}
+.master_card {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
